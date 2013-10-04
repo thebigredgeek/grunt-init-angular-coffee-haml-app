@@ -2,6 +2,6 @@
     "compile":{
         "process/html/index.html":"src/haml/index.haml",
         "process/html/directives/demoDirective.html":"src/haml/directives/demoDirective.haml",
-        "process/html/partials/demoPartial.html":"src/haml/directives/demoDirective.haml"
+        "process/html/partials/demoPartial.html":"src/haml/partials/demoPartial.haml"
     }
 }

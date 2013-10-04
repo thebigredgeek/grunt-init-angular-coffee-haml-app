@@ -212,6 +212,6 @@ module.exports = function(grunt){
     }
     grunt.registerTask('default',["concurrent"]);
 
-    grunt.registerTask('build',['coffee','karma:pre','haml','copy','concat','strip','ngtemplates','uglify','karma:post','plato','clean:process']);
+    grunt.registerTask('build',['coffee','karma:pre','haml','cssmin','copy','concat','strip','ngtemplates','uglify','karma:post','plato','clean:process']);
     grunt.registerTask('dist',['build','bump']);
 };

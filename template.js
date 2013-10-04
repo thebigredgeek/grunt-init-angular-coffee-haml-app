@@ -1,6 +1,6 @@
 'use strict';
 
-exports.description = "Create an Angular Module, including Karma unit tests";
+exports.description = "Create an Angular Application with CoffeeScript and HAML, including Karma unit tests";
 exports.notes = "";
 
 exports.after = "You should now install project dependencies with _npm install_," +

@@ -4,12 +4,13 @@ A grunt-init scaffold for Angular Applications with CoffeeScript and HAML.
 
 __Currently, linking is manual.  I plan to provide a Bower/JamJS wrapper within the grunt tooling that will automatically keep the linker up-to-date!__
 
-__Currently, no doc-gen provided out-of-the-box.  Docular coming soon!__
+__Currently, no doc-gen provided out-of-the-box.  Coffeedoc coming soon!__
 
 __Currently, no e2e testing provided out-of-the-box.  Protractor coming soon!__
 
 __Currently, no directive testing provided out-of-the-box.  Coming soon!__
 
+__Currently, no compile-time coffeescript linking.  Coming Soon!__
 
 ### Why use this scaffold?
 
@@ -30,11 +31,11 @@ Be sure to follow the instructions here:  http://gruntjs.com/project-scaffolding
 
 To use it, clone the project to your `~/.grunt-init` folder:
 
-    $ git clone https://github.com/thebigredgeek/grunt-init-angular-app.git angular-app
+    $ git clone https://github.com/thebigredgeek/grunt-init-angular-coffee-haml-app.git angular-coffee-haml-app
 
 Then, to create a project, within your project directory:
 
-    $ grunt-init angular-app
+    $ grunt-init angular-coffee-haml-app
 
 Finally, install dependencies:
 
@@ -70,7 +71,7 @@ for compile external dependencies into your project that are guaranteed to be av
 
 The scaffold provides the following grunt methods:
 
-`grunt` - deploys the development environment with live reload.  This environment runs testing, doc gen, and analytics!
+`grunt` - deploys the development environment with live reload.  This environment rebuilds on code changes.
 
 `grunt build` - performs a build
 

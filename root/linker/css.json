@@ -1,4 +1,5 @@
 {
     "link":[
+        "src/css/**/*.css"
     ]
 }
