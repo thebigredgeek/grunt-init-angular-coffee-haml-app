@@ -1,0 +1,14 @@
+!!!
+%html{lang: "en", "ng-app" => "{%= sterileName %}"}
+  %head
+    %meta{charset: "utf-8"}/
+    %title {%= name %}
+    %script{src: "vendor.js"}
+    %script{src: "app.js"}
+    %link{href: "app.css", rel: "stylesheet"}/
+  %body
+    %div {%= name %}
+    %div{"ng-controller" => "demoControllerRoot"}
+      %ul
+        %li{"ng-repeat" => "(key,val) in rows"} List item
+    %div{"ng-view" => ""}
